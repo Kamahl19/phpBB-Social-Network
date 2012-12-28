@@ -656,14 +656,6 @@ $versions = array(
 			'phpbbSN_create_fms_primarygroups',
 			'phpbb_SN_umil_send'
 		),
-
-		'cache_purge'		 => array(
-			'imageset',
-			'template',
-			'theme',
-			'cache',
-		),
-
 	),
 
 	'0.7.1'	 => array(
@@ -702,9 +694,12 @@ $versions = array(
 		'custom'			 => array(
 			'phpbbSN_replace_primary_by_unique',
 		),
-
+		
 		'cache_purge'		 => array(
-			'cache',
+			'imageset',
+			'template',
+			'theme',
+			'cache'
 		),
 	),
 );

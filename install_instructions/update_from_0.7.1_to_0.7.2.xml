@@ -16,7 +16,9 @@ Changelog: http://phpbbsocialnetwork.com/viewtopic.php?t=1023
 phpBB Social Network Facebook page: http://www.facebook.com/pages/phpBB-Social-Network/180271885389370
 
 Feel free to ask for support or request more features here http://phpbbsocialnetwork.com/]]></description>
-		<author-notes lang="en"><![CDATA[Feel free to ask for support or new features here http://phpbbsocialnetwork.com/]]></author-notes>
+		<author-notes lang="en"><![CDATA[If you are updating from older version than 0.7.0, you need to run socialnet/update_sn_0.7.0.php at first.
+
+Feel free to ask for support or new features here http://phpbbsocialnetwork.com/]]></author-notes>
 		<author-group>
 			<author>
 				<username phpbbcom="no"><![CDATA[Kamahl19]]></username>
@@ -61,5 +63,6 @@ Feel free to ask for support or request more features here http://phpbbsocialnet
 			</edit>
 		</open>
 		<php-installer><![CDATA[socialnet/install_sn.php]]></php-installer>
+		<diy-instructions lang="en"><![CDATA[Do not forget to clear the cache and refresh your template via ACP. Then you can set up user permissions.]]></diy-instructions>
 	</action-group>
 </mod>
